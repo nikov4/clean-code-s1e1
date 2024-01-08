@@ -11,14 +11,14 @@
       <img src="./eisenhower-matrix.jpg">
       <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="main">
-      <p id="topSectionForAddingElementToList">
-        <label for="new-task" class="main__header label_new">Add Item</label>
-        <div class="new-task-row">
-          <input id="new-task"class="input input_new task" type="text">
+    <main class="main">
+      <h3 class="main__header">Add Item</h3>
+      <ul id="topSectionForAddingElementToList" class="new">
+        <li class="task__item new-mode">
+          <input id="new-task" class="input input_new task" type="text">
           <button class="button">Add</button>
-        </div>
-      </p>
+        </li>
+      </ul>
       <h3 class="main__header">Todo</h3>
       <ul id="incompleteTasks">
         <li class="task__item">
@@ -52,7 +52,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>

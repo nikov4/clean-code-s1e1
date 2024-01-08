@@ -32,7 +32,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.new-task-row {
+.new-mode {
   display: flex;
 }
 ul {
@@ -86,12 +86,12 @@ h3 {
 }
 
 /* New Task */
-.label_new {
-  display: block;
-  margin: 0 0 20px;
-}
+
 .input_new {
   width: 318px;
+}
+.new .new-mode {
+  border-bottom: none;
 }
 
 /* Task list */
@@ -130,7 +130,7 @@ h3 {
 }
 
 /* Completed */
-.completed label {
+.completed .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -140,7 +140,9 @@ h3 {
   display: none;
 }
 
-.edit-mode .input {
+.edit-mode .input,
+.new-mode .input
+ {
   display: inline-block;
   width: 224px;
 }
