@@ -143,8 +143,7 @@ h3 {
 }
 
 .edit-mode .input,
-.new-mode .input
- {
+.new-mode .input {
   display: inline-block;
   width: 224px;
 }
